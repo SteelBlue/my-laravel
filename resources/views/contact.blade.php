@@ -61,7 +61,7 @@
         </style>
     </head>
     <body>
-    
+
         <div class="left_top_nav">
             <a href="{{ url() }}">
                 <i class="fa fa-2x fa-home"></i>
@@ -70,11 +70,17 @@
                 <i class="fa fa-2x fa-phone"></i>
             </a>
         </div>
+
         <div class="wrapper">
             <div class="container">
                 <div class="content">
                     <div class="title">
-                        <h1>Laravel 5</h1>
+                        <h1>Drop a Line</h1>
+                    </div>
+                    <div class="copy">
+                        <p>Phone: 727-434-4500</p>
+                        <p>Email: <a href="mailto:me@ryanebbers.com">me@RyanEbbers.com</a></p>
+                        <p>Tampa, FL</p>
                     </div>
                 </div>
             </div>
