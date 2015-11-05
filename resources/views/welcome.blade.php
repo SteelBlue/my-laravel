@@ -61,7 +61,7 @@
         </style>
     </head>
     <body>
-    
+
         <div class="left_top_nav">
             <a href="{{ url() }}">
                 <i class="fa fa-2x fa-home"></i>

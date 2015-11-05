@@ -16,6 +16,6 @@ class PageController extends Controller
      */
     public function contact()
     {
-        return view('contact');
+        return view('pages.contact');
     }
 }
