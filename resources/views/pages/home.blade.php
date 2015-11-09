@@ -6,7 +6,8 @@
         <div class="container">
             <div class="content">
                 <div class="title">
-                    <h1>Laravel 5</h1>
+                    <h1>Ryan Ebbers</h1>
+                    <h2>DEVELOPED WITH LARAVEL 5</h2>
                 </div>
             </div>
         </div>

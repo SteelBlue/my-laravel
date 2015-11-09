@@ -15,10 +15,12 @@
             margin: 0;
             padding: 0;
             font-family: 'Lato';
+            color: #2695af;
         }
 
         a {
             text-decoration: none;
+            color: #22617A;
         }
 
         .left_top_nav {
@@ -30,6 +32,7 @@
         .left_top_nav a {
             display: block;
             margin: 20px 0 0 20px;
+            color: #2695af;
         }
 
         #holder {
@@ -68,6 +71,12 @@
         .title h1 {
             font-size: 96px;
             font-weight: 100;
+        }
+
+        .title h2 {
+            font-size: 30px;
+            font-weight: 100;
+            text-transform: uppercase;
         }
 
         .copy {
