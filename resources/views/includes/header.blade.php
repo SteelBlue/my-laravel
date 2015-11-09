@@ -25,6 +25,7 @@
             position: fixed;
             top: 0;
             left: 0;
+            z-index: 1000;
         }
         .left_top_nav a {
             display: block;
@@ -70,4 +71,7 @@
     </style>
 </head>
 <body>
+
+    @include('includes.sideNav')
+
     <div id="holder">
