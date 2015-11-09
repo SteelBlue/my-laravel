@@ -12,7 +12,7 @@
 */
 
 // Homepage
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'PageController@index');
 
 // Contact Page
 Route::get('contact', 'PageController@contact');
