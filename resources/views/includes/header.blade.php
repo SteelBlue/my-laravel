@@ -36,7 +36,16 @@
             margin: 20px 0 0 20px;
             color: #2695af;
         }
-
+        .tooltip.right > .tooltip-inner {
+            background-color: #2695af;
+        }
+        .tooltip.right .tooltip-arrow {
+            top: 50%;
+            left: 0;
+            margin-top: -5px;
+            border-right-color: #2695af;
+            border-width: 5px 5px 5px 0;
+        }
         #holder {
             position: absolute;
             top: 0;
