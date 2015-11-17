@@ -5,4 +5,7 @@
     <a href="{{ url('contact') }}">
         <i class="fa fa-2x fa-phone"></i>
     </a>
+    <a href="{{ url('about') }}">
+        <i class="fa fa-2x fa-user"></i>
+    </a>
 </div>

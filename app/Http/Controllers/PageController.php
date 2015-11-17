@@ -28,4 +28,14 @@ class PageController extends Controller
     {
         return view('pages.contact');
     }
+
+    /**
+     * Display the about page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function about()
+    {
+        return view('pages.about');
+    }
 }
