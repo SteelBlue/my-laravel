@@ -8,4 +8,7 @@
     <a href="{{ url('about') }}" data-toggle="tooltip" data-placement="right" title="About Me">
         <i class="fa fa-2x fa-user"></i>
     </a>
+    <a href="{{ url('about') }}" data-toggle="tooltip" data-placement="right" title="Blog">
+        <i class="fa fa-2x fa-bullhorn"></i>
+    </a>
 </div>
