@@ -6,7 +6,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">
-                    <h1>Ryan Ebbers</h1>
+                    <h1>About&nbsp;Me: {{ $name }}</h1>
                 </div>
                 <div class="copy">
                     <h2>Developus Maximus</h2>
