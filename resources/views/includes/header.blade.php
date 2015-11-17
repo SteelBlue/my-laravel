@@ -25,6 +25,10 @@
             color: #22617A;
         }
 
+        ::selection {
+            background: #FFC083;
+        }
+
         .left_top_nav {
             position: fixed;
             top: 0;
