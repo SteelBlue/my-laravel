@@ -11,7 +11,6 @@
                 <div class="copy">
                     <h2>Developus Maximus</h2>
                     <p>This will become text about the legend of Ryan Ebbers.</p>
-                    <p>Tampa, FL</p>
                 </div>
             </div>
         </div>
