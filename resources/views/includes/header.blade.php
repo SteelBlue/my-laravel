@@ -86,6 +86,7 @@
         .title h1 {
             font-size: 96px;
             font-weight: 100;
+            margin-top: 0;
         }
 
         .title h2 {
