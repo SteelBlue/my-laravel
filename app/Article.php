@@ -6,7 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model
 {
-    // Fillable Fields
+    /**
+     * Fillable Fields
+     */
     protected $fillable = [
         'title',
         'body',
