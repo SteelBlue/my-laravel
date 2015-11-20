@@ -13,12 +13,16 @@
 
         // DOCUMENT READY
         $(document).ready(function() {
+
+            // Page Transition
+            // FadeIn the .wrapper Content
             $('.wrapper').animate({
                 opacity: 1
             }, 1000);
         });
 
-        // Make the page slideOut to the left
+        // Page Transition
+        // SlideOut to the Left
         $('a').on('click', function() {
 //            var windowW = $(window).width() + 2000;
 //            $('#holder').animate({
