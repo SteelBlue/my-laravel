@@ -24,10 +24,6 @@
         // Page Transition
         // SlideOut to the Left
         $('a').on('click', function() {
-//            var windowW = $(window).width() + 2000;
-//            $('#holder').animate({
-//                left: "-" + windowW
-//            }, 750);
             $('#holder').toggle('slide');
 
             var href = $(this).attr('href');
