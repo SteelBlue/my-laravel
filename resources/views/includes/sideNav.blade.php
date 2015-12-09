@@ -3,7 +3,7 @@
         <i class="fa fa-2x fa-home"></i>
     </a>
     <a href="{{ url('contact') }}" data-toggle="tooltip" data-placement="right" title="Contact Me">
-        <i class="fa fa-2x fa-phone"></i>
+        <i class="fa fa-2x fa-comments"></i>
     </a>
     <a href="{{ url('about') }}" data-toggle="tooltip" data-placement="right" title="About Me">
         <i class="fa fa-2x fa-user"></i>

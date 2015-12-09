@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Flash;
+use Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -47,5 +49,15 @@ class ArticleController extends Controller
     public function create()
     {
         return view('blog.create');
+    }
+
+    public function store()
+    {
+        $input = Request::all();
+
+        // Success Message
+        Flash::success('Your article has been created.');
+
+        return Redirect::back();
     }
 }

@@ -50,6 +50,17 @@
             border-right-color: #2695af;
             border-width: 5px 5px 5px 0;
         }
+        .btn-primary {
+            background: #2695af;
+            border-color: #2695af;
+        }
+        .btn-primary:hover {
+            background: #22617A;
+            border-color: #22617A;
+        }
+
+
+
         #holder {
             position: absolute;
             top: 0;
