@@ -20,9 +20,8 @@ Route::get('contact', 'PageController@contact');
 // About Page
 Route::get('about', 'PageController@about');
 
-// Articles Page
+// Blog Page
 Route::get('blog', 'ArticleController@index');
 Route::get('blog/create', 'ArticleController@create');
 Route::get('blog/{id}', 'ArticleController@show');
-// Store Article
-Route::post('blog/create', 'ArticleController@store');
+Route::post('blog', 'ArticleController@store');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Article;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
 use Request;
@@ -19,7 +20,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
+        $articles = Article::latest('published_at')->get();
 
         return view('blog.index', compact('articles'));
     }
@@ -54,10 +55,14 @@ class ArticleController extends Controller
     public function store()
     {
         $input = Request::all();
+        $input['published_at'] = Carbon::now();
+
+        // Create the Article
+        Article::create($input);
 
         // Success Message
         Flash::success('Your article has been created.');
 
-        return Redirect::back();
+        return redirect('blog');
     }
 }
