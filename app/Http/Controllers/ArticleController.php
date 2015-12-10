@@ -64,11 +64,8 @@ class ArticleController extends Controller
      */
     public function store()
     {
-        $input = Request::all();
-        $input['published_at'] = Carbon::now();
-
         // Create the Article
-        Article::create($input);
+        Article::create(Request::all());
 
         // Success Message
         Flash::success('Your article has been created.');
