@@ -14,7 +14,7 @@ use App\Http\Controllers\Controller;
 class ArticleController extends Controller
 {
     /**
-     * Display all blog articles.
+     * Show all articles.
      *
      * @return \Illuminate\Http\Response
      */
@@ -26,7 +26,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Display an individual blog article.
+     * Show a single article.
      *
      * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -48,7 +48,7 @@ class ArticleController extends Controller
 //    }
 
     /**
-     * Display a create article page.
+     * Show the page to create a new article.
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
@@ -58,7 +58,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Store the new article, and redirect to blog
+     * Save a new article.
      *
      * @return Redirect
      */
