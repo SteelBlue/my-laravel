@@ -12,16 +12,17 @@
 */
 
 // Homepage
-Route::get('/', 'PageController@index');
+Route::get('/', 'PagesController@index');
 
 // Contact Page
-Route::get('contact', 'PageController@contact');
+Route::get('contact', 'PagesController@contact');
 
 // About Page
-Route::get('about', 'PageController@about');
+Route::get('about', 'PagesController@about');
 
 // Blog Page
-Route::get('blog', 'ArticleController@index');
-Route::get('blog/create', 'ArticleController@create');
-Route::get('blog/{id}', 'ArticleController@show');
-Route::post('blog', 'ArticleController@store');
+Route::get('blog', 'ArticlesController@index');
+Route::get('blog/create', 'ArticlesController@create');
+Route::get('blog/{id}', 'ArticlesController@show');
+Route::post('blog', 'ArticlesController@store');
+Route::get('articles/{id}/edit', 'ArticlesController@edit');

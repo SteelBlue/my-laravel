@@ -10,7 +10,7 @@ use Flash;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class ArticleController extends Controller
+class ArticlesController extends Controller
 {
     /**
      * Show all articles.

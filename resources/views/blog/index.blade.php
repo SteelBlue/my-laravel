@@ -11,7 +11,7 @@
                     <h2>DEVELOPED USING LARAVEL 5</h2>
                     <hr>
                     <h3>
-                        <a href="{{ action('ArticleController@create') }}">Create New Article</a>
+                        <a href="{{ action('ArticlesController@create') }}">Create New Article</a>
                     </h3>
                     <hr>
                 </div>
@@ -29,7 +29,7 @@
                     <article>
 
                         <h3>
-                            <a href="{{ action('ArticleController@show', [$article->id]) }}">{{ $article->title }}</a>
+                            <a href="{{ action('ArticlesController@show', [$article->id]) }}">{{ $article->title }}</a>
                         </h3>
 
                         <div class="body">

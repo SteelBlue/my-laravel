@@ -33,7 +33,7 @@
                 {{-- end form errors --}}
 
                 {{-- Create Article Form --}}
-                {!! Form::open(['action' => 'ArticleController@store']) !!}
+                {!! Form::open(['action' => 'ArticlesController@store']) !!}
 
                     <div class="form-group">
                         {!! Form::label('title', 'Title') !!}
