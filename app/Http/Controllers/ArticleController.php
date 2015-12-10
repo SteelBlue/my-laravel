@@ -31,9 +31,9 @@ class ArticleController extends Controller
      * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function show($id )
+    public function show($id)
     {
-        $article = Article::findOrFail( $id );
+        $article = Article::findOrFail($id);
 
         return view('blog.show', compact('article'));
     }

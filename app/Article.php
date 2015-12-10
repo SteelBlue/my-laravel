@@ -16,6 +16,8 @@ class Article extends Model
         'published_at',
     ];
 
+    protected $dates = ['published_at'];    // Create Carbon instance of published_at
+
     /**
      * Scope: Published
      * Display only published posts.
