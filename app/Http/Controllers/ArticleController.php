@@ -47,11 +47,21 @@ class ArticleController extends Controller
 //        return $article;
 //    }
 
+    /**
+     * Display a create article page.
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function create()
     {
         return view('blog.create');
     }
 
+    /**
+     * Store the new article, and redirect to blog
+     *
+     * @return Redirect
+     */
     public function store()
     {
         $input = Request::all();
