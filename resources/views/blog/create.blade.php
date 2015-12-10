@@ -12,6 +12,7 @@
                     <hr>
                 </div>
 
+                {{-- Display Flash Messages --}}
                 @if (Session::has('flash_notification.message'))
                     <div class="alert alert-{{ Session::get('flash_notification.level') }}">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -19,7 +20,19 @@
                         {{ Session::get('flash_notification.message') }}
                     </div>
                 @endif
+                {{-- end flash messages --}}
 
+                {{-- Display Form Errors --}}
+                @if ($errors->any())
+                    <ul class="alert alert-danger">
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                @endif
+                {{-- end form errors --}}
+
+                {{-- Create Article Form --}}
                 {!! Form::open(['action' => 'ArticleController@store']) !!}
 
                     <div class="form-group">
@@ -42,6 +55,9 @@
                     </div>
 
                 {!! Form::close() !!}
+                {{-- end article form --}}
+
+
 
             </div>
         </div>
