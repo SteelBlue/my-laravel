@@ -22,3 +22,9 @@ Route::get('about', 'PagesController@about');
 
 // Blog
 Route::resource('blog', 'ArticlesController');
+
+// User Auth
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
