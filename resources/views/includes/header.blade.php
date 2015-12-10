@@ -117,3 +117,6 @@
     @include('includes.sideNav')
 
     <div id="holder">
+        <div class="wrapper">
+            <div class="container">
+                <div class="content">
