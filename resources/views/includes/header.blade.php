@@ -34,6 +34,7 @@
             top: 0;
             left: 0;
             z-index: 1000;
+            opacity: 0;
         }
         .left_top_nav a {
             display: block;

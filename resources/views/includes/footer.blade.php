@@ -19,16 +19,22 @@
             $('.wrapper').animate({
                 opacity: 1
             }, 1000);
+            $('.left_top_nav').animate({
+                opacity: 1
+            }, 1000);
         });
 
         // Page Transition
-        // SlideOut to the Left
+        // SlideOut to the Left and FadeOut Nav
         $('a').on('click', function() {
+            $('.left_top_nav').animate({
+                opacity: 0
+            }, 300);
             $('#holder').toggle('slide');
 
             var href = $(this).attr('href');
 
-            // Delay setting the location for one second
+            // Delay setting the location for 300ms
             setTimeout(function() {window.location = href}, 300);
             return false;
         });
