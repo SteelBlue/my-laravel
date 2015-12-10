@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use Carbon\Carbon;
+use App\Http\Requests\CreateArticleRequest;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
-use Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -62,10 +61,10 @@ class ArticleController extends Controller
      *
      * @return Redirect
      */
-    public function store()
+    public function store(CreateArticleRequest $request)
     {
         // Create the Article
-        Article::create(Request::all());
+        Article::create($request->all());
 
         // Success Message
         Flash::success('Your article has been created.');
