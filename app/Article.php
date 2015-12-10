@@ -28,6 +28,17 @@ class Article extends Model
     }
 
     /**
+     * Scope: Unpublished
+     * Display only unpublished posts.
+     *
+     * @param $query
+     */
+    public function scopeUnpublished($query)
+    {
+        $query->where('published_at', '>', Carbon::now());
+    }
+
+    /**
      * Mutator: Published At
      * Changes the $date instance to a Carbon instance before entering into the database.
      *
