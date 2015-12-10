@@ -14,15 +14,11 @@
 // Homepage
 Route::get('/', 'PagesController@index');
 
-// Contact Page
+// Contact
 Route::get('contact', 'PagesController@contact');
 
-// About Page
+// About Me
 Route::get('about', 'PagesController@about');
 
-// Blog Page
-Route::get('blog', 'ArticlesController@index');
-Route::get('blog/create', 'ArticlesController@create');
-Route::get('blog/{id}', 'ArticlesController@show');
-Route::post('blog', 'ArticlesController@store');
-Route::get('articles/{id}/edit', 'ArticlesController@edit');
+// Blog
+Route::resource('blog', 'ArticlesController');
