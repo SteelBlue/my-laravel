@@ -92,7 +92,20 @@
 
         .content {
             text-align: center;
-            display: inline-block;
+            /*display: inline-block;*/
+        }
+
+        .panel {
+            width: 50%;
+            margin: auto;
+            transition: 350ms;
+        }
+
+        @media(max-width: 700px) {
+            .panel {
+                width: 100%;
+                transition: 350ms;
+            }
         }
 
         .title h1 {
