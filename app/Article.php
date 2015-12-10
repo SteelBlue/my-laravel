@@ -37,8 +37,7 @@ class Article extends Model
     }
 
     /**
-     * Scope: Unpublished
-     * Display only unpublished posts.
+     * Scope queries to articles that have been published.
      *
      * @param $query
      */
@@ -48,8 +47,8 @@ class Article extends Model
     }
 
     /**
-     * Mutator: Published At
-     * Changes the $date instance to a Carbon instance before entering into the database.
+     * Set the published_at attribute.
+     * Change to Carbon instance before entering into the database.
      *
      * @param $date
      */
