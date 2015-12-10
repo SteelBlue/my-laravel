@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84033614">
-              <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
               <folding>
                 <element signature="e#23#41#0#PHP" expanded="true" />
               </folding>
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.7783613">
               <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding />
             </state>
@@ -134,8 +134,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="769" />
-    <option name="y" value="137" />
+    <option name="x" value="751" />
+    <option name="y" value="182" />
     <option name="width" value="1680" />
     <option name="height" value="1023" />
   </component>
@@ -370,7 +370,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="137" width="1680" height="1023" extended-state="0" />
+    <frame x="751" y="182" width="1680" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30248308" sideWeight="0.5038241" order="2" side_tool="true" content_ui="tabs" />
@@ -779,21 +779,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84033614">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
           <folding>
             <element signature="e#23#41#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7783613">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
