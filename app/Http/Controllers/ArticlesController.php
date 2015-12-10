@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use App\Http\Requests\CreateArticleRequest;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
 
@@ -73,7 +74,7 @@ class ArticlesController extends Controller
     }
 
     /**
-     * Edit an article.
+     * Show the page to edit an article.
      *
      * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -83,5 +84,17 @@ class ArticlesController extends Controller
         $article = Article::findOrFail($id);
 
         return view('blog.edit', compact('article'));
+    }
+
+    public function update($id, Request $request)
+    {
+        $article = Article::findOrFail($id);
+
+        $article->update($request->all());
+
+        // Success Message
+        Flash::success('Your article has been updated.');
+
+        return redirect('blog');
     }
 }
