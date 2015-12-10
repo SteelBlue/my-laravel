@@ -8,14 +8,21 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model
 {
     /**
-     * Fillable Fields
-     */
+     * Fillable fields for an Article.
+     *
+     * @var array
+     **/
     protected $fillable = [
         'title',
         'body',
         'published_at',
     ];
 
+    /**
+     * Additional fields to treat as Carbon instances.
+     *
+     * @var array
+     **/
     protected $dates = ['published_at'];    // Create Carbon instance of published_at
 
     /**
