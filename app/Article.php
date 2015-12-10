@@ -16,6 +16,23 @@ class Article extends Model
         'published_at',
     ];
 
+    /**
+     * Scope: Published
+     * Display only published posts.
+     *
+     * @param $query
+     */
+    public function scopePublished($query)
+    {
+        $query->where('published_at', '<=', Carbon::now());
+    }
+
+    /**
+     * Mutator: Published At
+     * Changes the $date instance to a Carbon instance before entering into the database.
+     *
+     * @param $date
+     */
     public function setPublishedAtAttribute($date)
     {
         if ($date == date('Y-m-d')) :
