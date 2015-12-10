@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use App\Http\Requests\CreateArticleRequest;
+use App\Http\Requests\ArticleRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
@@ -60,9 +60,10 @@ class ArticlesController extends Controller
     /**
      * Save a new article.
      *
+     * @param ArticleRequest $request
      * @return Redirect
      */
-    public function store(CreateArticleRequest $request)
+    public function store(ArticleRequest $request)
     {
         // Create the Article
         Article::create($request->all());
@@ -86,7 +87,14 @@ class ArticlesController extends Controller
         return view('blog.edit', compact('article'));
     }
 
-    public function update($id, Request $request)
+    /**
+     * Update an article.
+     *
+     * @param $id
+     * @param ArticleRequest $request
+     * @return Redirect
+     */
+    public function update($id, ArticleRequest $request)
     {
         $article = Article::findOrFail($id);
 
