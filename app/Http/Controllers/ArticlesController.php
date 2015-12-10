@@ -71,4 +71,17 @@ class ArticlesController extends Controller
 
         return redirect('blog');
     }
+
+    /**
+     * Edit an article.
+     *
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function edit($id)
+    {
+        $article = Article::findOrFail($id);
+
+        return view('blog.edit', compact('article'));
+    }
 }
