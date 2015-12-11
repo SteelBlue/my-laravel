@@ -20,6 +20,9 @@ Route::get('contact', 'PagesController@contact');
 // About Me
 Route::get('about', 'PagesController@about');
 
+// Experience
+Route::get('experience', 'PagesController@experience');
+
 // Blog
 Route::resource('blog', 'ArticlesController');
 

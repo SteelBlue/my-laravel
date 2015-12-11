@@ -6,9 +6,9 @@
         <h1>Drop a Line</h1>
     </div>
     <div class="copy">
-        <p>Phone: 727-434-4500</p>
-        <p>Email: <a href="mailto:me@ryanebbers.com">me@RyanEbbers.com</a></p>
-        <p>Tampa, FL</p>
+        <h2>Phone: 727-434-4500</h2>
+        <h2>Email: <a href="mailto:me@ryanebbers.com">me@RyanEbbers.com</a></h2>
+        <h3>Tampa, FL</h3>
     </div>
 
 @endsection

@@ -40,4 +40,14 @@ class PagesController extends Controller
 
         return view('pages.about', compact('name'));
     }
+
+    /**
+     * Display the experience page
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function experience()
+    {
+        return view('pages.experience');
+    }
 }
