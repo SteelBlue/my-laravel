@@ -11,7 +11,13 @@
     <a href="{{ url('experience') }}" data-toggle="tooltip" data-placement="right" title="Experience">
         <i class="fa fa-2x fa-code"></i>
     </a>
+    <a href="{{ url('education') }}" data-toggle="tooltip" data-placement="right" title="Education">
+        <i class="fa fa-2x fa-graduation-cap"></i>
+    </a>
     <a href="{{ url('blog') }}" data-toggle="tooltip" data-placement="right" title="Blog">
         <i class="fa fa-2x fa-flask"></i>
+    </a>
+    <a href="{{ url('auth/login') }}" data-toggle="tooltip" data-placement="right" title="Login">
+        <i class="fa fa-2x fa-sign-in"></i>
     </a>
 </div>
