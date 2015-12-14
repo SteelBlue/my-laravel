@@ -1,4 +1,4 @@
-@extends('adminLogin')
+@extends('adminFullWidth')
 
 @section('content')
 
