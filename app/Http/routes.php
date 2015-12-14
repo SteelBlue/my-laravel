@@ -26,7 +26,7 @@ Route::get('experience', 'PagesController@experience');
 // Blog
 Route::resource('blog', 'ArticlesController');
 
-// User Auth
+// User Authentication
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',

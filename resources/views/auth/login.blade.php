@@ -10,8 +10,9 @@
 
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
-                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                    <ul>
+                    <strong>Whoops!</strong> There were some problems with your input.
+                    <hr>
+                    <ul class="list-unstyled">
                         @foreach ($errors->all() as $error)
                             <li>{{ $error }}</li>
                         @endforeach
@@ -40,7 +41,7 @@
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group text-left">
                     <div class="col-md-6 col-md-offset-4">
                         <div class="checkbox">
                             <label>
@@ -50,7 +51,7 @@
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group text-left">
                     <div class="col-md-6 col-md-offset-4">
                         <button type="submit" class="btn btn-primary">Login</button>
 
