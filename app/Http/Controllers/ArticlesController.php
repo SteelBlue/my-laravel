@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Article;
 use App\Http\Requests\ArticleRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
 
@@ -65,8 +66,11 @@ class ArticlesController extends Controller
      */
     public function store(ArticleRequest $request)
     {
-        // Create the Article
-        Article::create($request->all());
+        // Create a new article
+        $article = new Article($request->all());
+
+        // Save the new article with the user_id
+        Auth::user()->articles()->save($article);
 
         // Success Message
         Flash::success('Your article has been created.');
