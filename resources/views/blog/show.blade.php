@@ -3,17 +3,15 @@
 @section('content')
 
     <div class="title">
+
         <h1>Blog</h1>
-        <h2>
-            <a href="#">{{ $article->title }}</a>
-        </h2>
+        <h2>{{ $article->title }}</h2>
         <hr>
         @if (Auth::check())
-            <h3>
-                <a href="{{ action('ArticlesController@edit', $article->id) }}">Edit Article</a>
-            </h3>
+            <a href="{{ action('ArticlesController@edit', $article->id) }}">Edit Article</a>
             <hr>
         @endif
+        
     </div>
 
     <article>
