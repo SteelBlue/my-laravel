@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afece62e-dbc7-4d75-8482-d6b2c613e704" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/blog/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/blog/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" />
     </list>
     <ignored path="my-laravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,14 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticlesController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticlesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80042017">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17962185">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +95,6 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/CreateArticleRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/blog/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/blog/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ArticleRequest.php" />
@@ -120,6 +127,8 @@
         <option value="$PROJECT_DIR$/resources/views/blog/_form.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/blog/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/blog/index.blade.php" />
       </list>
     </option>
   </component>
@@ -138,8 +147,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="728" />
-    <option name="y" value="282" />
+    <option name="x" value="659" />
+    <option name="y" value="310" />
     <option name="width" value="1680" />
     <option name="height" value="1023" />
   </component>
@@ -201,50 +210,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,7 +366,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="User.php&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/User.php&#10;helper.&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/vendor/laravel/framework/src/Illuminate/Support/helpers.php&#10;form&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/_form.blade.php&#10;Art&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticlesController.php&#10;ex&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/pages/experience.blade.php&#10;routes.&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;Pages&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/PagesController.php&#10;Articl&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticlesController.php&#10;arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;create&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;autol&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/bootstrap/autoload.php&#10;Arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;crea&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;composer.j&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/composer.json&#10;route&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;A&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticleController.php&#10;routes&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="ind&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/index.blade.php&#10;show&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/show.blade.php&#10;create.blade&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;User.php&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/User.php&#10;helper.&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/vendor/laravel/framework/src/Illuminate/Support/helpers.php&#10;form&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/_form.blade.php&#10;Art&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticlesController.php&#10;ex&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/pages/experience.blade.php&#10;routes.&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;Pages&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/PagesController.php&#10;Articl&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticlesController.php&#10;arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;create&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;autol&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/bootstrap/autoload.php&#10;Arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;crea&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;composer.j&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/composer.json&#10;route&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;A&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticleController.php&#10;routes&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -456,7 +421,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="728" y="282" width="1680" height="1023" extended-state="0" />
+    <frame x="659" y="310" width="1680" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30248308" sideWeight="0.5038241" order="2" side_tool="true" content_ui="tabs" />
@@ -569,20 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15966387">
-          <caret line="8" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09978992">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/includes/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -594,13 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15966387">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4989496">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -866,13 +810,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19957983">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15966387">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80042017">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17962185">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
