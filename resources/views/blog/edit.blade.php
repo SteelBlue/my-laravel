@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="title">
-        <h1>Edit</h1>
+        <h1>Edit Article</h1>
         <h2>{{ $article->title }}</h2>
         <hr>
     </div>

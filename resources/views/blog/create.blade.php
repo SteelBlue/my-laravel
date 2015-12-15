@@ -3,8 +3,8 @@
 @section('content')
 
     <div class="title">
-        <h1>Blog</h1>
-        <h2>Create New Article</h2>
+        {{--<h1>Blog</h1>--}}
+        <h1>Create New Article</h1>
         <hr>
     </div>
 
