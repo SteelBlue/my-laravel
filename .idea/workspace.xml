@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afece62e-dbc7-4d75-8482-d6b2c613e704" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/experience.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/experience.blade.php" />
     </list>
     <ignored path="my-laravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistersUsers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegistersUsers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25945377">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experience.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/experience.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2731092">
+              <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -112,7 +122,6 @@
         <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/contact.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/experience.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/adminLogin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/adminLoginHeader.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/adminFormHeader.blade.php" />
@@ -125,6 +134,7 @@
         <option value="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/reset.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/experience.blade.php" />
       </list>
     </option>
   </component>
@@ -143,8 +153,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="719" />
-    <option name="y" value="244" />
+    <option name="x" value="728" />
+    <option name="y" value="282" />
     <option name="width" value="1680" />
     <option name="height" value="1023" />
   </component>
@@ -398,7 +408,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="routes.&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;Pages&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/PagesController.php&#10;Articl&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticlesController.php&#10;arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;create&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;autol&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/bootstrap/autoload.php&#10;Arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;crea&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;composer.j&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/composer.json&#10;route&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;A&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticleController.php&#10;Art&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticleController.php&#10;routes&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="ex&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/pages/experience.blade.php&#10;routes.&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;Pages&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/PagesController.php&#10;Articl&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticlesController.php&#10;arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;create&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;autol&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/bootstrap/autoload.php&#10;Arti&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Article.php&#10;crea&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/resources/views/blog/create.blade.php&#10;composer.j&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/composer.json&#10;route&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php&#10;A&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticleController.php&#10;Art&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/Controllers/ArticleController.php&#10;routes&#9;FILE&#9;file:///Users/ryanebbers/Code/my-laravel/app/Http/routes.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -453,7 +463,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="719" y="244" width="1680" height="1023" extended-state="0" />
+    <frame x="728" y="282" width="1680" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30248308" sideWeight="0.5038241" order="2" side_tool="true" content_ui="tabs" />
@@ -701,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/experience.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2394958">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2394958">
@@ -815,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1197479">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.217437">
@@ -853,10 +849,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37920168">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25945377">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/experience.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2731092">
+          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
           <folding />
         </state>
       </provider>
