@@ -4,12 +4,10 @@
 
     <div class="title">
         <h1>Blog</h1>
-        <h2>DEVELOPED USING LARAVEL 5</h2>
+        <h2>DEVELOPED USING LARAVEL</h2>
         <hr>
         @if (Auth::check())
-            <h3>
-                <a href="{{ action('ArticlesController@create') }}">Create New Article</a>
-            </h3>
+            <a href="{{ action('ArticlesController@create') }}">Create New Article</a>
             <hr>
         @endif
     </div>
