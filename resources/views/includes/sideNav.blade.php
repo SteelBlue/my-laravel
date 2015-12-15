@@ -17,7 +17,13 @@
     <a href="{{ url('blog') }}" data-toggle="tooltip" data-placement="right" title="Blog">
         <i class="fa fa-2x fa-flask"></i>
     </a>
-    <a href="{{ url('auth/login') }}" data-toggle="tooltip" data-placement="right" title="Login">
-        <i class="fa fa-2x fa-sign-in"></i>
-    </a>
+    @if (Auth::check())
+        <a href="{{ url('auth/logout') }}" data-toggle="tooltip" data-placement="right" title="Log Out">
+            <i class="fa fa-2x fa-sign-out"></i>
+        </a>
+    @else
+        <a href="{{ url('auth/login') }}" data-toggle="tooltip" data-placement="right" title="Login">
+            <i class="fa fa-2x fa-sign-in"></i>
+        </a>
+    @endif
 </div>
