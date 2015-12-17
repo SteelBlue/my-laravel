@@ -31,3 +31,8 @@ Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
 ]);
+
+Route::get('foo', ['middleware' => ['auth', 'manager'], function()
+{
+    return 'this route may only be used by managers';
+}]);
