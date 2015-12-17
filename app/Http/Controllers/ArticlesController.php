@@ -4,13 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use App\Http\Requests\ArticleRequest;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
 class ArticlesController extends Controller
 {
