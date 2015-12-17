@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
 
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
 class ArticlesController extends Controller
 {
     /**
