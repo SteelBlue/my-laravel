@@ -23,6 +23,9 @@ Route::get('about', 'PagesController@about');
 // Experience
 Route::get('experience', 'PagesController@experience');
 
+// Education
+Route::resource('education', 'EducationController');
+
 // Blog
 Route::resource('blog', 'ArticlesController');
 
