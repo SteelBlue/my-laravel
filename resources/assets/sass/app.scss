@@ -21,6 +21,24 @@ body {
 a {
   text-decoration: none;
   color: #22617A;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:active {
+    outline: 0;
+  }
+}
+
+button {
+  &:focus {
+    outline: 0;
+  }
+
+  &:active {
+    outline: 0;
+  }
 }
 
 ::selection {

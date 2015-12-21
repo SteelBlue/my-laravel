@@ -2,6 +2,7 @@
  *  Possible Blues
  *    - #2695af
  *    - #00b9d8
+ *    - #0298b1
  **/
 
 html,
@@ -19,6 +20,22 @@ body {
 a {
   text-decoration: none;
   color: #22617A;
+}
+
+a:focus {
+  outline: 0;
+}
+
+a:active {
+  outline: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  outline: 0;
 }
 
 ::-moz-selection {
