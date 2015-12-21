@@ -1,5 +1,12 @@
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+/**
+ *  Possible Blues
+ *    - #2695af
+ *    - #00b9d8
+ *    - #0298b1
+ **/
+
 html, body {
   height: 100%;
 }
@@ -8,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato';
-  color: #2695af;
+  color: #0298b1;
 }
 
 a {
@@ -40,21 +47,21 @@ a {
 .left_top_nav a {
   display: block;
   margin: 20px 0 0 20px;
-  color: #2695af;
+  color: #0298b1;
 }
 .tooltip.right > .tooltip-inner {
-  background-color: #2695af;
+  background-color: #0298b1;
 }
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
-  border-right-color: #2695af;
+  border-right-color: #0298b1;
   border-width: 5px 5px 5px 0;
 }
 .btn-primary {
-  background: #2695af;
-  border-color: #2695af;
+  background: #0298b1;
+  border-color: #0298b1;
 }
 .btn-primary:hover {
   background: #22617A;
