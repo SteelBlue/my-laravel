@@ -1,6 +1,5 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,6 +13,10 @@ body {
 a {
   text-decoration: none;
   color: #22617A;
+}
+
+::-moz-selection {
+  background: #FFC083;
 }
 
 ::selection {
@@ -37,14 +40,17 @@ a {
   z-index: 1000;
   opacity: 0;
 }
+
 .left_top_nav a {
   display: block;
   margin: 20px 0 0 20px;
   color: #2695af;
 }
+
 .tooltip.right > .tooltip-inner {
   background-color: #2695af;
 }
+
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
@@ -52,16 +58,16 @@ a {
   border-right-color: #2695af;
   border-width: 5px 5px 5px 0;
 }
+
 .btn-primary {
   background: #2695af;
   border-color: #2695af;
 }
+
 .btn-primary:hover {
   background: #22617A;
   border-color: #22617A;
 }
-
-
 
 #holder {
   position: absolute;
@@ -102,7 +108,7 @@ a {
   transition: 350ms;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .panel {
     /*width: 100%;*/
     transition: 350ms;
@@ -119,8 +125,4 @@ a {
   font-size: 30px;
   font-weight: 100;
   text-transform: uppercase;
-}
-
-.copy {
-
 }

@@ -1,8 +1,8 @@
-@extends('adminFullWidth')
+@extends('app')
 
 @section('content')
 
-    <div class="panel panel-default">
+    <div id="admin_form" class="panel panel-default">
 
         <div class="panel-heading">Login</div>
 
