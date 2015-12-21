@@ -68,11 +68,8 @@ class ArticlesController extends Controller
      */
     public function store(ArticleRequest $request)
     {
-        // Create a new article
-        $article = new Article($request->all());
-
-        // Save the new article with the user_id
-        Auth::user()->articles()->save($article);
+        // Create the new article with the user_id
+        Auth::user()->articles()->create($request->all());
 
         // Success Message
         Flash::success('Your article has been created.');
