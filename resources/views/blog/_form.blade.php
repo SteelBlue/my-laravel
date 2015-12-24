@@ -25,7 +25,8 @@
 @section('footer')
     <script>
         $('#tag_list').select2({
-            placeholder: 'Choose a tag(s)'
+            placeholder: 'Choose a tag(s)',
+            tags: true,
         });
     </script>
 @endsection
