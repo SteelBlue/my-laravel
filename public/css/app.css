@@ -149,3 +149,7 @@ button:active {
   font-weight: 100;
   text-transform: uppercase;
 }
+
+.select2-container {
+  display: block;
+}
