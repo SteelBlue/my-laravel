@@ -106,6 +106,8 @@ class ArticlesController extends Controller
     {
         $article->update($request->all());
 
+        $article->tags()->sync($request->input('tag_list'));
+
         // Success Message
         Flash::success('Your article has been updated.');
 
