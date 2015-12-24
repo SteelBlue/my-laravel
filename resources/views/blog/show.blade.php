@@ -2,24 +2,28 @@
 
 @section('content')
 
-    <div class="title">
+    <div class="content">
 
-        <h1>Blog</h1>
-        <h2>{{ $article->title }}</h2>
-        <hr>
-        @if (Auth::check())
-            <a href="{{ action('ArticlesController@edit', $article->id) }}">Edit Article</a>
+        <div class="title">
+
+            <h1>Blog</h1>
+            <h2>{{ $article->title }}</h2>
             <hr>
-        @endif
-        
-    </div>
+            @if (Auth::check())
+                <a href="{{ action('ArticlesController@edit', $article->id) }}">Edit Article</a>
+                <hr>
+            @endif
 
-    <article>
-
-        <div class="body">
-            {{ $article->body }}
         </div>
 
-    </article>
+        <article>
+
+            <div class="body">
+                {{ $article->body }}
+            </div>
+
+        </article>
+
+    </div>
 
 @stop
