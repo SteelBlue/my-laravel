@@ -9,13 +9,13 @@
 </div>
 
 <div class="form-group">
-    {!! Form::label('tags', 'Tags') !!}
-    {!! Form::select('tags', ['example 1', 'example 2', 'example 3'], null, ['class' => 'form-control']) !!}
+    {!! Form::label('published_at', 'Publish On') !!}
+    {!! Form::input('date', 'published_at', date('Y-m-d'), ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
-    {!! Form::label('published_at', 'Publish On') !!}
-    {!! Form::input('date', 'published_at', date('Y-m-d'), ['class' => 'form-control']) !!}
+    {!! Form::label('tag_list', 'Tags') !!}
+    {!! Form::select('tag_list[]', $tags, null, ['class' => 'form-control', 'multiple']) !!}
 </div>
 
 <div class="form-group">

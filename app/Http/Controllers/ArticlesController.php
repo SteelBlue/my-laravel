@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use App\Http\Requests\ArticleRequest;
+use App\Tag;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Flash;
@@ -57,7 +58,9 @@ class ArticlesController extends Controller
      */
     public function create()
     {
-        return view('blog.create');
+        $tags = Tag::lists('name', 'id');
+
+        return view('blog.create', compact('tags'));
     }
 
     /**
@@ -69,7 +72,9 @@ class ArticlesController extends Controller
     public function store(ArticleRequest $request)
     {
         // Create the new article with the user_id
-        Auth::user()->articles()->create($request->all());
+        $article = Auth::user()->articles()->create($request->all());
+
+        $article->tags()->attach($request->input('tag_list'));
 
         // Success Message
         Flash::success('Your article has been created.');
@@ -85,7 +90,9 @@ class ArticlesController extends Controller
      */
     public function edit(Article $article)
     {
-        return view('blog.edit', compact('article'));
+        $tags = Tag::lists('name', 'id');
+
+        return view('blog.edit', compact('article', 'tags'));
     }
 
     /**

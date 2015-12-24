@@ -22,6 +22,19 @@
                 {{ $article->body }}
             </div>
 
+            @unless ($article->tags->isEmpty())
+            <div class="tags">
+
+                <h5>Tags</h5>
+                <ul class="list-unstyled">
+                    @foreach ($article->tags as $tag)
+                        <li>{{ $tag->name }}</li>
+                    @endforeach
+                </ul>
+
+            </div>
+            @endunless
+
         </article>
 
     </div>
