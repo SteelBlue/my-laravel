@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Article;
 use Illuminate\Support\ServiceProvider;
 
 class ViewComposerServiceProvider extends ServiceProvider
@@ -31,9 +32,9 @@ class ViewComposerServiceProvider extends ServiceProvider
      */
     private function composeNavigation()
     {
-        view()->composer('partials.sideNav', 'App\Http\Composers\NavigationComposer');
-//        view()->composer('partials.sideNav', function ($view) {
-//            $view->with('latest', Article::latest()->first());
-//        });
+//        view()->composer('partials.sideNav', 'App\Http\Composers\NavigationComposer');
+        view()->composer('partials.sideNav', function ($view) {
+            $view->with('latest', Article::latest()->first());
+        });
     }
 }
