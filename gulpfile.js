@@ -13,8 +13,10 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
 
+    // Convert Sass to CSS
     mix.sass('app.scss', 'resources/assets/css');
 
+    // Merge Stylesheets
     mix.styles([
         'libs/font-awesome.min.css',
         'libs/bootstrap.min.css',
