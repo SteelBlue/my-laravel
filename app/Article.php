@@ -62,6 +62,12 @@ class Article extends Model
         endif;
     }
 
+    /**
+     * Get the published_at attribute.
+     *
+     * @param $date
+     * @return Carbon
+     */
     public function getPublishedAtAttribute($date)
     {
         return new Carbon($date);
