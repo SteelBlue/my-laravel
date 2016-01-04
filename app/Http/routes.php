@@ -28,6 +28,9 @@ Route::get('experience', 'PagesController@experience');
 // Education
 Route::resource('education', 'EducationController');
 
+// Tags
+Route::get('tags/{tags}', 'TagsController@show');
+
 // Blog
 Route::resource('blog', 'ArticlesController');
 
