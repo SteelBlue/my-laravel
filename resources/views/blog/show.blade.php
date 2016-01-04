@@ -16,10 +16,6 @@
                 <hr>
             @endif
 
-            <h3>Most Recent Article</h3>
-            <a href="{{ action('ArticlesController@show', $latest->id) }}">{{ $latest->title }}</a>
-            <hr>
-
         </div>
 
         <article>

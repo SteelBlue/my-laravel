@@ -29,11 +29,14 @@ elixir(function(mix) {
      * Merging Stylesheets
      */
     mix.styles([
-        'libs/font-awesome.min.css',
+        //'libs/font-awesome.min.css',
+        '../../../vendor/fortawesome/font-awesome/css/font-awesome.min.css',
         'libs/bootstrap.min.css',
         'libs/select2.min.css',
         'app.css'
     ]);
+
+    mix.copy('vendor/fortawesome/font-awesome/fonts', 'public/build/fonts');
 
 
     /*
