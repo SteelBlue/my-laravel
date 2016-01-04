@@ -223,6 +223,17 @@
                         <p>Becoming an effective developer is not build with college degrees, it's built with the time spent outside of formal education</p>
                     </div>
                 </li>
+                <li>
+                    <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>2002</span> <span>2006</span></time>
+                    <div class="cbp_tmicon">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="cbp_tmlabel">
+                        <h2>Sickles High School</h2>
+                        <h3>Class of 2006</h3>
+                        <p>Graduated from Sickles High School.</p>
+                    </div>
+                </li>
             </ul>
         </div>
 
