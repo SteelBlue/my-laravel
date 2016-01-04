@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('foo', 'FooController@foo');
+
 // Homepage
 Route::get('/', 'PagesController@index');
 
