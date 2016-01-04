@@ -5,13 +5,21 @@
     <div class="content">
 
         <div class="title">
+
             <h1>Blog</h1>
             <h2>DEVELOPED USING LARAVEL</h2>
             <hr>
             @if (Auth::check())
-                <a href="{{ action('ArticlesController@create') }}">Create New Article</a>
+                <h4>
+                    <a href="{{ action('ArticlesController@create') }}">Create New Article</a>
+                </h4>
                 <hr>
             @endif
+
+            <h3>Most Recent Article</h3>
+            <a href="{{ action('ArticlesController@show', $latest->id) }}">{{ $latest->title }}</a>
+            <hr>
+
         </div>
 
         {{-- Display Flash Messages --}}

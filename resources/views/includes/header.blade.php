@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    @include('includes.sideNav')
+    @include('partials.sideNav')
 
     <div id="holder">
         <div class="wrapper">
