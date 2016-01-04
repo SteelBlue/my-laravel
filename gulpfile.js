@@ -13,10 +13,21 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
 
-    // Convert Sass to CSS
+    /*
+     |--------------------------------------------------------------------------
+     | Mixing Styles
+     |--------------------------------------------------------------------------
+     |
+     */
+
+    /*
+     * Converting Sass to CSS
+     */
     mix.sass('app.scss', 'resources/assets/css');
 
-    // Merge Stylesheets
+    /*
+     * Merging Stylesheets
+     */
     mix.styles([
         'libs/font-awesome.min.css',
         'libs/bootstrap.min.css',
@@ -24,6 +35,32 @@ elixir(function(mix) {
         'app.css'
     ]);
 
-    // Cache Busting
-    mix.version('public/css/all.css');
+
+    /*
+     |--------------------------------------------------------------------------
+     | Mixing Scripts
+     |--------------------------------------------------------------------------
+     |
+     */
+
+    /*
+     * Merging Scripts
+     */
+    mix.scripts([
+        'libs/jquery.js',
+        'libs/jquery-ui.js',
+        'libs/select2.min.js'
+    ]);
+
+
+    /*
+     |--------------------------------------------------------------------------
+     | Cache Busting
+     |--------------------------------------------------------------------------
+     |
+     */
+    mix.version([
+        'public/css/all.css',
+        'public/js/all.js'
+    ]);
 });
