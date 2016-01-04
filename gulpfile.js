@@ -30,9 +30,11 @@ elixir(function(mix) {
      */
     mix.styles([
         //'libs/font-awesome.min.css',
+        //'libs/bootstrap.min.css',
+        //'libs/select2.min.css',
         '../../../vendor/fortawesome/font-awesome/css/font-awesome.min.css',
-        'libs/bootstrap.min.css',
-        'libs/select2.min.css',
+        '../../../vendor/twbs/bootstrap/dist/css/bootstrap.min.css',
+        '../../../vendor/select2/select2/dist/css/select2.min.css',
         'app.css'
     ]);
 
