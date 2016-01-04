@@ -11,7 +11,7 @@ class TagsController extends Controller
 {
     public function show(Tag $tag)
     {
-        $articles = $tag->articles;
+        $articles = $tag->articles()->published()->get();
         $tag = $tag->name;
 
         return view('blog.tags', compact('articles', 'tag'));
