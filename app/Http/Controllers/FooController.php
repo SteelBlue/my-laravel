@@ -10,6 +10,9 @@ use App\Http\Controllers\Controller;
 
 class FooController extends Controller
 {
+    /**
+     * If multiple methods need the object, use constructor injection.
+     **/
 //    private $repository;
 //
 //    public function __construct(FooRepository $repository)
@@ -17,6 +20,10 @@ class FooController extends Controller
 //        $this->repository = $repository;
 //    }
 
+
+    /**
+     * If only one instance of an object is needed, use method injection.
+     **/
     public function foo(FooRepository $repository)
     {
         return $repository->get();
