@@ -19,7 +19,7 @@
         {{-- end form errors --}}
 
         {{-- Create Article Form --}}
-        {!! Form::open(['action' => 'ArticlesController@store']) !!}
+        {!! Form::model($article = new \App\Article, ['action' => 'ArticlesController@store']) !!}
             @include('blog._form', ['submitButtonText' => 'Add Article'])
         {!! Form::close() !!}
         {{-- end article form --}}
