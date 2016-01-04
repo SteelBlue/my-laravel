@@ -14,10 +14,7 @@ class ViewComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer('partials.sideNav', function($view)
-        {
-            $view->with('latest', Article::latest()->first());
-        });
+        $this->composeNavigation();
     }
 
     /**
@@ -28,5 +25,15 @@ class ViewComposerServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+
+    /**
+     * Compose the navigation view, with the $latest variable.
+     */
+    private function composeNavigation()
+    {
+        view()->composer('partials.sideNav', function ($view) {
+            $view->with('latest', Article::latest()->first());
+        });
     }
 }
