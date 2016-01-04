@@ -10,15 +10,15 @@ use App\Http\Controllers\Controller;
 
 class FooController extends Controller
 {
-    private $repository;
+//    private $repository;
+//
+//    public function __construct(FooRepository $repository)
+//    {
+//        $this->repository = $repository;
+//    }
 
-    public function __construct(FooRepository $repository)
+    public function foo(FooRepository $repository)
     {
-        $this->repository = $repository;
-    }
-
-    public function foo()
-    {
-        return $this->repository->get();
+        return $repository->get();
     }
 }
