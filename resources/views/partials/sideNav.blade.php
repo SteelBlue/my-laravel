@@ -17,9 +17,9 @@
     <a href="{{ url('blog') }}" data-toggle="tooltip" data-placement="right" title="Blog">
         <i class="fa fa-2x fa-flask"></i>
     </a>
-    <a href="{{ action('ArticlesController@show', $latest->id) }}" data-toggle="tooltip" data-placement="right" title="Latest Article">
+{{--    <a href="{{ action('ArticlesController@show', $latest->id) }}" data-toggle="tooltip" data-placement="right" title="Latest Article">
         <i class="fa fa-2x fa-hashtag"></i>
-    </a>
+    </a>--}}
     @if (Auth::check())
         <a href="{{ url('auth/logout') }}" data-toggle="tooltip" data-placement="right" title="Log Out">
             <i class="fa fa-2x fa-sign-out"></i>
