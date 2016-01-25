@@ -2,6 +2,8 @@
 
 @section('content')
 
+    <div class="content">
+
         <div id="admin_form" class="panel panel-default">
 
             <div class="panel-heading">Login</div>
