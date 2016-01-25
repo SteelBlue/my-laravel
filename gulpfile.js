@@ -54,7 +54,8 @@ elixir(function(mix) {
     mix.scripts([
         'libs/jquery.js',
         'libs/jquery-ui.js',
-        'libs/select2.min.js'
+        'libs/select2.min.js',
+        'app.js'
     ]);
 
 
